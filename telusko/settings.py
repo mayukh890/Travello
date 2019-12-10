@@ -78,11 +78,17 @@ WSGI_APPLICATION = 'telusko.wsgi.application'
 
 DATABASES = {
     'default': {
+        # 'ENGINE': 'django.db.backends.postgresql',
+        # 'NAME': 'telusko',
+        # 'USER': 'postgres',
+        # 'PASSWORD': '12345',
+        # 'HOST': 'localhost'
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'telusko',
-        'USER': 'postgres',
-        'PASSWORD': '12345',
-        'HOST': 'localhost'
+        'NAME': "ddnhg0nm7ep1fe",
+        'USER': "eiwwrxlhrindmw",
+        'PASSWORD': "de7957010cc3fbd4886cd3662e3c945683fc7921e7dbaeff2bcf4e26721e14ec",
+        'HOST': 'ec2-174-129-255-4.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
